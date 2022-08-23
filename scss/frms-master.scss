@@ -1,3 +1,6 @@
 /* This file is for global styles for Federal Records Management & Shredding Website */
-@import url(_color.scss);
-@import url(_typography.scss);
+@import '_color.scss';
+@import '_typography.scss';
+
+//Navigation
+.empty-class {background-color: $frms-green-g70;}

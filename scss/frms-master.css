@@ -1,3 +1,75 @@
 /* This file is for global styles for Federal Records Management & Shredding Website */
-@import url(_color.scss);
-@import url(_typography.scss);/*# sourceMappingURL=frms-master.css.map */
+/* Colors Variables */
+/* Global Classes for FrontEnd */
+#green10 h1, #green10 h2, #green10 h3, #green10 h4, #green10 h5, #green10 h6, #green10 div, #green10 span, #green10 a, #green10 p, .green10 h1, .green10 h2, .green10 h3, .green10 h4, .green10 h5, .green10 h6, .green10 div, .green10 span, .green10 a, .green10 p {
+  color: #F6F7F3 !important;
+}
+
+#green20 h1, #green20 h2, #green20 h3, #green20 h4, #green20 h5, #green20 h6, #green20 div, #green20 span, #green20 a, #green20 p, .green20 h1, .green20 h2, .green20 h3, .green20 h4, .green20 h5, .green20 h6, .green20 div, .green20 span, .green20 a, .green20 p {
+  color: #E6EED8 !important;
+}
+
+#green30 h1, #green30 h2, #green30 h3, #green30 h4, #green30 h5, #green30 h6, #green30 div, #green30 span, #green30 a, #green30 p, .green30 h1, .green30 h2, .green30 h3, .green30 h4, .green30 h5, .green30 h6, .green30 div, .green30 span, .green30 a, .green30 p {
+  color: #C0E246 !important;
+}
+
+#green40 h1, #green40 h2, #green40 h3, #green40 h4, #green40 h5, #green40 h6, #green40 div, #green40 span, #green40 a, #green40 p, .green40 h1, .green40 h2, .green40 h3, .green40 h4, .green40 h5, .green40 h6, .green40 div, .green40 span, .green40 a, .green40 p {
+  color: #83C55E !important;
+}
+
+#green50 h1, #green50 h2, #green50 h3, #green50 h4, #green50 h5, #green50 h6, #green50 div, #green50 span, #green50 a, #green50 p, .green50 h1, .green50 h2, .green50 h3, .green50 h4, .green50 h5, .green50 h6, .green50 div, .green50 span, .green50 a, .green50 p {
+  color: #50B26F !important;
+}
+
+#green60 h1, #green60 h2, #green60 h3, #green60 h4, #green60 h5, #green60 h6, #green60 div, #green60 span, #green60 a, #green60 p, .green60 h1, .green60 h2, .green60 h3, .green60 h4, .green60 h5, .green60 h6, .green60 div, .green60 span, .green60 a, .green60 p {
+  color: #307552 !important;
+}
+
+#green70 h1, #green70 h2, #green70 h3, #green70 h4, #green70 h5, #green70 h6, #green70 div, #green70 span, #green70 a, #green70 p, .green70 h1, .green70 h2, .green70 h3, .green70 h4, .green70 h5, .green70 h6, .green70 div, .green70 span, .green70 a, .green70 p {
+  color: #12423C !important;
+}
+
+#green80 h1, #green80 h2, #green80 h3, #green80 h4, #green80 h5, #green80 h6, #green80 div, #green80 span, #green80 a, #green80 p, .green80 h1, .green80 h2, .green80 h3, .green80 h4, .green80 h5, .green80 h6, .green80 div, .green80 span, .green80 a, .green80 p {
+  color: #0A2E29 !important;
+}
+
+#manilla10 h1, #manilla10 h2, #manilla10 h3, #manilla10 h4, #manilla10 h5, #manilla10 h6, #manilla10 div, #manilla10 span, #manilla10 a, #manilla10 p, .manilla10 h1, .manilla10 h2, .manilla10 h3, .manilla10 h4, .manilla10 h5, .manilla10 h6, .manilla10 div, .manilla10 span, .manilla10 a, .manilla10 p {
+  color: #FAF9F6 !important;
+}
+
+#manilla20 h1, #manilla20 h2, #manilla20 h3, #manilla20 h4, #manilla20 h5, #manilla20 h6, #manilla20 div, #manilla20 span, #manilla20 a, #manilla20 p, .manilla20 h1, .manilla20 h2, .manilla20 h3, .manilla20 h4, .manilla20 h5, .manilla20 h6, .manilla20 div, .manilla20 span, .manilla20 a, .manilla20 p {
+  color: #F4F4F0 !important;
+}
+
+#manilla30 h1, #manilla30 h2, #manilla30 h3, #manilla30 h4, #manilla30 h5, #manilla30 h6, #manilla30 div, #manilla30 span, #manilla30 a, #manilla30 p, .manilla30 h1, .manilla30 h2, .manilla30 h3, .manilla30 h4, .manilla30 h5, .manilla30 h6, .manilla30 div, .manilla30 span, .manilla30 a, .manilla30 p {
+  color: #E0DED7 !important;
+}
+
+#manilla40 h1, #manilla40 h2, #manilla40 h3, #manilla40 h4, #manilla40 h5, #manilla40 h6, #manilla40 div, #manilla40 span, #manilla40 a, #manilla40 p, .manilla40 h1, .manilla40 h2, .manilla40 h3, .manilla40 h4, .manilla40 h5, .manilla40 h6, .manilla40 div, .manilla40 span, .manilla40 a, .manilla40 p {
+  color: #BAB7AE !important;
+}
+
+#manilla50 h1, #manilla50 h2, #manilla50 h3, #manilla50 h4, #manilla50 h5, #manilla50 h6, #manilla50 div, #manilla50 span, #manilla50 a, #manilla50 p, .manilla50 h1, .manilla50 h2, .manilla50 h3, .manilla50 h4, .manilla50 h5, .manilla50 h6, .manilla50 div, .manilla50 span, .manilla50 a, .manilla50 p {
+  color: #88867D !important;
+}
+
+#manilla60 h1, #manilla60 h2, #manilla60 h3, #manilla60 h4, #manilla60 h5, #manilla60 h6, #manilla60 div, #manilla60 span, #manilla60 a, #manilla60 p, .manilla60 h1, .manilla60 h2, .manilla60 h3, .manilla60 h4, .manilla60 h5, .manilla60 h6, .manilla60 div, .manilla60 span, .manilla60 a, .manilla60 p {
+  color: #53514B !important;
+}
+
+#manilla70 h1, #manilla70 h2, #manilla70 h3, #manilla70 h4, #manilla70 h5, #manilla70 h6, #manilla70 div, #manilla70 span, #manilla70 a, #manilla70 p, .manilla70 h1, .manilla70 h2, .manilla70 h3, .manilla70 h4, .manilla70 h5, .manilla70 h6, .manilla70 div, .manilla70 span, .manilla70 a, .manilla70 p {
+  color: #3E3C35 !important;
+}
+
+/* Global Classes for FrontEnd */
+#sans h1, #sans h2, #sans h3, #sans h4, #sans h5, #sans h6, #sans div, #sans span, #sans a, #sans p, .sans h1, .sans h2, .sans h3, .sans h4, .sans h5, .sans h6, .sans div, .sans span, .sans a, .sans p {
+  color: "Shredder Sans", Inter, Open Sans, Arial, sans serif !important;
+}
+
+#sharp h1, #sharp h2, #sharp h3, #sharp h4, #sharp h5, #sharp h6, #sharp div, #sharp span, #sharp a, #sharp p, .sharp h1, .sharp h2, .sharp h3, .sharp h4, .sharp h5, .sharp h6, .sharp div, .sharp span, .sharp a, .sharp p {
+  color: "Sharp Grotesk", Inter, Open Sans, Arial, sans serif !important;
+}
+
+.empty-class {
+  background-color: #12423C;
+}/*# sourceMappingURL=frms-master.css.map */
