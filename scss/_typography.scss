@@ -1,11 +1,29 @@
 // FMRS Typography Partial for Federal
+
+//Fonts
 $frms-sans: 'Shredder Sans', Inter, Open Sans, Arial, sans serif;
 $frms-sharp: 'Sharp Grotesk', Inter, Open Sans, Arial, sans serif;
 
 // Mixins
 @mixin Sans {color: $frms-sans !important;}
 @mixin Sharp {color: $frms-sharp !important;}
+@mixin uppercase {text-transform: uppercase !important;} 
+@mixin titleCase {text-transform: capitalize !important;}
 
 /* Global Classes for FrontEnd */
 #sans, .sans {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Sans;}}
 #sharp, .sharp {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Sharp;}}
+
+
+
+/* Typography */
+h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {-webkit-font-smoothing: antialiased !important;}
+p, li, ol, span {@include Sans;}
+
+// Type Casing
+.uppercase {h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {@include uppercase;}} 
+.titleCase {h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {@include titleCase;}}
+h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {.uppercase {@include uppercase;} .titleCase {@include titleCase;}}
+
+// Underline
+.underline {h1,h2,h3,h4,h5,h6,div,span,a,p {text-decoration: underline !important;}} h1,h2,h3,h4,h5,h6,div,span,a,p {.underline {text-decoration: underline !important;}}
