@@ -3,5 +3,7 @@
     "MinifyAll.disableScss": true,
     "MinifyAll.disableSass": true,
     "MinifyAll.disablePhp": true,
-    "MinifyAll.minifyOnSave": true
+    "MinifyAll.minifyOnSave": true,
+    "MinifyAll.openMinifiedDocument": false,
+    "MinifyAll.minifyOnSaveToNewFile": true
 }
