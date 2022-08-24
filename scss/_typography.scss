@@ -1,8 +1,8 @@
 // FMRS Typography Partial for Federal
 
 //Fonts
-$frms-sans: 'Shredder Sans', Inter, Open Sans, Arial, sans serif;
-$frms-sharp: 'Sharp Grotesk', Inter, Open Sans, Arial, sans serif;
+$frms-sans: 'Shredder Sans', 'Inter', 'Open Sans', Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif; // Shredder Sans
+$frms-sharp: 'Sharp Grotesk', 'Inter', 'Open Sans', Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif; // Sharp Grotesk
 
 // Mixins
 @mixin Sans {color: $frms-sans !important;}

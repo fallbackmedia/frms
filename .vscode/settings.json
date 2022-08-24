@@ -1,9 +1,3 @@
 {
-    "MinifyAll.disableJson": true,
-    "MinifyAll.disableScss": true,
-    "MinifyAll.disableSass": true,
-    "MinifyAll.disablePhp": true,
-    "MinifyAll.minifyOnSave": true,
-    "MinifyAll.openMinifiedDocument": false,
-    "MinifyAll.minifyOnSaveToNewFile": true
+    "es6-css-minify.minifyOnSave": "exists"
 }
