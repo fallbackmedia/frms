@@ -14,7 +14,9 @@ a.lime-cta {
     font-weight: 600;
     letter-spacing: 0;
         &:hover {
-            background: $frms-green-g50;
+            background: $frms-green-g50 !important;
+            color: $frms-manilla-m10 !important;
+            fill: $frms-manilla-m10 !important;
         }
 }
 
