@@ -8,9 +8,18 @@
 // Request A Quote CTA
 a.lime-cta {
     padding: 16px 32px;
-    background: $frms-green-g30;
+    background: $frms-green-g30 !important;
     border-radius: 4px;
-    color: $frms-green-g70;
+    color: $frms-green-g70 !important;
     font-weight: 600;
     letter-spacing: 0;
+        &:hover {
+            background: $frms-green-g50;
+        }
+}
+
+// General Purpose - Housekeeping
+::selection {
+    color: inhert;
+    background: $frms-green-g20 !important;
 }

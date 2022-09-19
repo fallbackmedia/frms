@@ -107,9 +107,17 @@ h1 .underline, h2 .underline, h3 .underline, h4 .underline, h5 .underline, h6 .u
 
 a.lime-cta {
   padding: 16px 32px;
-  background: #C0E246;
+  background: #C0E246 !important;
   border-radius: 4px;
-  color: #12423C;
+  color: #12423C !important;
   font-weight: 600;
   letter-spacing: 0;
+}
+a.lime-cta:hover {
+  background: #50B26F;
+}
+
+::selection {
+  color: inhert;
+  background: #E6EED8 !important;
 }
