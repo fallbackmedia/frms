@@ -5,8 +5,8 @@ $frms-sans: 'Shredder Sans', 'Inter', 'Open Sans', Arial, apple-system, system-u
 $frms-sharp: 'Sharp Grotesk', 'Inter', 'Open Sans', Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif; // Sharp Grotesk
 
 // Mixins
-@mixin Sans {color: $frms-sans !important;}
-@mixin Sharp {color: $frms-sharp !important;}
+@mixin Sans {font-family: $frms-sans !important;}
+@mixin Sharp {font-family: $frms-sharp !important;}
 @mixin uppercase {text-transform: uppercase !important;} 
 @mixin titleCase {text-transform: capitalize !important;}
 

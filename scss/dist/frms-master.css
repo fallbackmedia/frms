@@ -102,14 +102,5 @@ h1 .underline, h2 .underline, h3 .underline, h4 .underline, h5 .underline, h6 .u
 }
 
 .empty-class {
-  background-color: #83C55E;
-}
-
-a.lime-cta {
-  padding: 16px 32px;
-  background: #C0E246;
-  border-radius: 4px;
-  color: #12423C;
-  font-weight: 600;
-  letter-spacing: 0;
+  background-color: #307552;
 }
