@@ -114,7 +114,9 @@ a.lime-cta {
   letter-spacing: 0;
 }
 a.lime-cta:hover {
-  background: #50B26F;
+  background: #50B26F !important;
+  color: #FAF9F6 !important;
+  fill: #FAF9F6 !important;
 }
 
 ::selection {
