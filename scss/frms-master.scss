@@ -14,3 +14,9 @@ a.lime-cta {
     font-weight: 600;
     letter-spacing: 0;
 }
+
+// General Purpose - Housekeeping
+::selection {
+    color: inhert;
+    background: $frms-green-g20 !important;
+}

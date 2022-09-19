@@ -113,3 +113,14 @@ a.lime-cta {
   font-weight: 600;
   letter-spacing: 0;
 }
+
+::selection {
+  color: inhert;
+  background: #E6EED8 !important;
+}nt;
+}
+
+::selection {
+  color: inhert;
+  background: #E6EED8 !important;
+}/*# sourceMappingURL=frms-master.css.map */
