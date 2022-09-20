@@ -15,11 +15,6 @@ $frms-sharp: 'Sharp Grotesk', 'Inter', 'Open Sans', Arial, apple-system, system-
 #sharp, .sharp {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Sharp;}}
 
 
-
-/* Typography */
-// h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {-webkit-font-smoothing: antialiased !important;}
-// p, li, ol, span {@include Sans;}
-
 // Type Casing
 .uppercase {h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {@include uppercase;}} 
 .titleCase {h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {@include titleCase;}}
