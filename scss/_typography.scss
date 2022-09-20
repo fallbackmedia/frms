@@ -4,7 +4,7 @@
 $frms-sans: 'Shredder Sans', 'Inter', 'Open Sans', Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif; // Shredder Sans
 $frms-sharp: 'Sharp Grotesk', 'Inter', 'Open Sans', Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif; // Sharp Grotesk
 
-// Mixins
+// Mixins - Must be decalred first
 @mixin Sans {font-family: $frms-sans !important;}
 @mixin Sharp {font-family: $frms-sharp !important;}
 @mixin uppercase {text-transform: uppercase !important;} 
@@ -14,7 +14,7 @@ $frms-sharp: 'Sharp Grotesk', 'Inter', 'Open Sans', Arial, apple-system, system-
 #sans, .sans {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Sans;}}
 #sharp, .sharp {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Sharp;}}
 
-// Type Casing
+// Type Casing - Uppercase & Capitalize
 .uppercase {h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {@include uppercase;}} 
 .titleCase {h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {@include titleCase;}}
 h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {.uppercase {@include uppercase;} .titleCase {@include titleCase;}}

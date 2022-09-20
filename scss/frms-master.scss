@@ -22,6 +22,6 @@ a.lime-cta {
 
 // General Purpose - Housekeeping
 ::selection {
-    color: inhert;
+    color: inhert !important;
     background: $frms-green-g20 !important;
 }

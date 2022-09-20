@@ -111,11 +111,11 @@ a.lime-cta:hover {
 }
 
 ::-moz-selection {
-  color: inhert;
+  color: inhert !important;
   background: #E6EED8 !important;
 }
 
 ::selection {
-  color: inhert;
+  color: inhert !important;
   background: #E6EED8 !important;
 }/*# sourceMappingURL=frms-master.css.map */
