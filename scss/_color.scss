@@ -3,42 +3,42 @@
 /* Colors Variables */
 
 // Green
-$frms-green-g10: #F6F7F3;
-$frms-green-g20: #E6EED8;
-$frms-green-g30: #C0E246;
-$frms-green-g40: #83C55E;
-$frms-green-g50: #50B26F;
-$frms-green-g60: #307552;
-$frms-green-g70: #12423C;
-$frms-green-g80: #0A2E29;
+$green-g10: #F6F7F3;
+$green-g20: #E6EED8;
+$green-g30: #C0E246;
+$green-g40: #83C55E;
+$green-g50: #50B26F;
+$green-g60: #307552;
+$green-g70: #12423C;
+$green-g80: #0A2E29;
 
 // Green Mixins
-@mixin Green10 {color: $frms-green-g10 !important;}
-@mixin Green20 {color: $frms-green-g20 !important;}
-@mixin Green30 {color: $frms-green-g30 !important;}
-@mixin Green40 {color: $frms-green-g40 !important;}
-@mixin Green50 {color: $frms-green-g50 !important;}
-@mixin Green60 {color: $frms-green-g60 !important;}
-@mixin Green70 {color: $frms-green-g70 !important;}
-@mixin Green80 {color: $frms-green-g80 !important;}
+@mixin Green10 {color: $green-g10 !important;}
+@mixin Green20 {color: $green-g20 !important;}
+@mixin Green30 {color: $green-g30 !important;}
+@mixin Green40 {color: $green-g40 !important;}
+@mixin Green50 {color: $green-g50 !important;}
+@mixin Green60 {color: $green-g60 !important;}
+@mixin Green70 {color: $green-g70 !important;}
+@mixin Green80 {color: $green-g80 !important;}
 
 // Manilla
-$frms-manilla-m10:#FAF9F6;
-$frms-manilla-m20:#F4F4F0;
-$frms-manilla-m30:#E0DED7;
-$frms-manilla-m40:#BAB7AE;
-$frms-manilla-m50:#88867D;
-$frms-manilla-m60:#53514B;
-$frms-manilla-m70:#3E3C35;
+$manilla-m10:#FAF9F6;
+$manilla-m20:#F4F4F0;
+$manilla-m30:#E0DED7;
+$manilla-m40:#BAB7AE;
+$manilla-m50:#88867D;
+$manilla-m60:#53514B;
+$manilla-m70:#3E3C35;
 
 // Manilla Mixins
-@mixin Manilla10 {color: $frms-manilla-m10 !important;}
-@mixin Manilla20 {color: $frms-manilla-m20 !important;}
-@mixin Manilla30 {color: $frms-manilla-m30 !important;}
-@mixin Manilla40 {color: $frms-manilla-m40 !important;}
-@mixin Manilla50 {color: $frms-manilla-m50 !important;}
-@mixin Manilla60 {color: $frms-manilla-m60 !important;}
-@mixin Manilla70 {color: $frms-manilla-m70 !important;}
+@mixin Manilla10 {color: $manilla-m10 !important;}
+@mixin Manilla20 {color: $manilla-m20 !important;}
+@mixin Manilla30 {color: $manilla-m30 !important;}
+@mixin Manilla40 {color: $manilla-m40 !important;}
+@mixin Manilla50 {color: $manilla-m50 !important;}
+@mixin Manilla60 {color: $manilla-m60 !important;}
+@mixin Manilla70 {color: $manilla-m70 !important;}
 
 
 

@@ -3,25 +3,25 @@
 @import '_typography.scss';
 
 // Navigation
-.empty-class{background-color:$frms-green-g40;}
+.empty-class{background-color:$green-g40;}
 
 // Request A Quote CTA
 a.lime-cta {
     padding: 16px 32px;
-    background: $frms-green-g30 !important;
+    background: $green-g30 !important;
     border-radius: 4px;
-    color: $frms-green-g70 !important;
+    color: $green-g70 !important;
     font-weight: 600;
     letter-spacing: 0;
         &:hover {
-            background: $frms-green-g50 !important;
-            color: $frms-manilla-m10 !important;
-            fill: $frms-manilla-m10 !important;
+            background: $green-g50 !important;
+            color: $manilla-m10 !important;
+            fill: $manilla-m10 !important;
         }
 }
 
 // General Purpose - Housekeeping
 ::selection {
-    color: inhert;
-    background: $frms-green-g20 !important;
+    color: inhert !important;
+    background: $green-g20 !important;
 }
