@@ -3,6 +3,7 @@
 //Fonts
 $frms-sans: 'Shredder Sans', 'Inter', 'Open Sans', Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif; // Shredder Sans
 $frms-sharp: 'Sharp Grotesk', 'Inter', 'Open Sans', Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif; // Sharp Grotesk
+h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {font-family: $frms-sans;}
 
 // Mixins - Must be decalred first before
 @mixin Sans {font-family: $frms-sans !important;}
