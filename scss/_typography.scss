@@ -4,13 +4,13 @@
 $frms-sans: 'Shredder Sans', 'Inter', 'Open Sans', Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif; // Shredder Sans
 $frms-sharp: 'Sharp Grotesk', 'Inter', 'Open Sans', Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif; // Sharp Grotesk
 
-// Mixins - Must be decalred first
+// Mixins - Must be decalred first before
 @mixin Sans {font-family: $frms-sans !important;}
 @mixin Sharp {font-family: $frms-sharp !important;}
 @mixin uppercase {text-transform: uppercase !important;} 
 @mixin titleCase {text-transform: capitalize !important;}
 
-/* Global Classes for FrontEnd */
+/* Global Classes for FrontEnd Use */
 #sans, .sans {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Sans;}}
 #sharp, .sharp {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Sharp;}}
 

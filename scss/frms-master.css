@@ -60,7 +60,7 @@
   color: #3E3C35 !important;
 }
 
-/* Global Classes for FrontEnd */
+/* Global Classes for FrontEnd Use */
 #sans h1, #sans h2, #sans h3, #sans h4, #sans h5, #sans h6, #sans div, #sans span, #sans a, #sans p, .sans h1, .sans h2, .sans h3, .sans h4, .sans h5, .sans h6, .sans div, .sans span, .sans a, .sans p {
   font-family: "Shredder Sans", "Inter", "Open Sans", Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif !important;
 }
