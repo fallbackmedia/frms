@@ -99,13 +99,23 @@ h1 .underline, h2 .underline, h3 .underline, h4 .underline, h5 .underline, h6 .u
 
 /* FRMS Homepage Styling */
 body.grve-header-overlapping #grve-main-header {
-  position: absolute;
-  top: 2rem;
   left: 0;
   right: 0;
   max-width: 1380px;
-  border-radius: 16px;
-  margin: 0 auto;
+  border-radius: 12px;
+  margin: 2rem auto;
+}
+
+#wpforms-form-197 .wpforms-page-indicator {
+  margin: 0;
+}
+#wpforms-form-197 .wpforms-page-indicator.progress {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 8px;
+}
+#wpforms-form-197 .wpforms-page-indicator .wpforms-page-indicator-page-progress-wrap {
+  height: 8px;
 }
 
 .empty-class {
