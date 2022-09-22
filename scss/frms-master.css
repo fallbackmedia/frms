@@ -78,14 +78,14 @@ h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {
   text-transform: uppercase !important;
 }
 
-.titleCase h1, .titleCase h2, .titleCase h3, .titleCase h4, .titleCase h5, .titleCase h6, .titleCase a, .titleCase li, .titleCase ul, .titleCase span, .titleCase div, .titleCase ol, .titleCase p, .titleCase button {
+.titlecase h1, .titlecase h2, .titlecase h3, .titlecase h4, .titlecase h5, .titlecase h6, .titlecase a, .titlecase li, .titlecase ul, .titlecase span, .titlecase div, .titlecase ol, .titlecase p, .titlecase button {
   text-transform: capitalize !important;
 }
 
 h1 .uppercase, h2 .uppercase, h3 .uppercase, h4 .uppercase, h5 .uppercase, h6 .uppercase, a .uppercase, li .uppercase, ul .uppercase, span .uppercase, div .uppercase, ol .uppercase, p .uppercase, button .uppercase {
   text-transform: uppercase !important;
 }
-h1 .titleCase, h2 .titleCase, h3 .titleCase, h4 .titleCase, h5 .titleCase, h6 .titleCase, a .titleCase, li .titleCase, ul .titleCase, span .titleCase, div .titleCase, ol .titleCase, p .titleCase, button .titleCase {
+h1 .titlecase, h2 .titlecase, h3 .titlecase, h4 .titlecase, h5 .titlecase, h6 .titlecase, a .titlecase, li .titlecase, ul .titlecase, span .titlecase, div .titlecase, ol .titlecase, p .titlecase, button .titlecase {
   text-transform: capitalize !important;
 }
 
@@ -98,28 +98,54 @@ h1 .underline, h2 .underline, h3 .underline, h4 .underline, h5 .underline, h6 .u
 }
 
 /* FRMS Homepage Styling */
-body.grve-header-overlapping #grve-main-header {
-  left: 0;
-  right: 0;
-  max-width: 1380px;
-  border-radius: 12px;
-  margin: 2rem auto;
-}
-
 #wpforms-form-197 .wpforms-page-indicator {
   margin: 0;
 }
 #wpforms-form-197 .wpforms-page-indicator.progress {
   display: flex;
   flex-direction: column-reverse;
-  gap: 8px;
+  gap: 4px;
 }
 #wpforms-form-197 .wpforms-page-indicator .wpforms-page-indicator-page-progress-wrap {
   height: 8px;
 }
+#wpforms-form-197 span.wpforms-page-indicator-steps {
+  font-size: 1rem;
+}
+#wpforms-form-197 .wpforms-form input[type=submit], #wpforms-form-197 .wpforms-form button[type=submit] {
+  width: 100% !important;
+}
+#wpforms-form-197 div.wpforms-container-full .wpforms-form .wpforms-page-button {
+  font-family: "Shredder Sans", "Inter", "Open Sans", Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 0 5px;
+  min-width: 90px;
+  text-align: center;
+  width: 100%;
+  padding: 16px;
+  border-radius: 4px;
+}
+#wpforms-form-197 div.wpforms-container-full .wpforms-form .wpforms-page-button .wpforms-page-indicator {
+  margin: 0;
+}
+#wpforms-form-197 div.wpforms-container-full .wpforms-form .wpforms-page-button .wpforms-form .wpforms-field {
+  padding: 8px 0;
+}
+#wpforms-form-197 div.wpforms-container-full {
+  margin: 0px auto;
+}
 
-.empty-class {
-  background-color: #83C55E;
+body .grve-header-overlapping #grve-main-header {
+  left: 0;
+  right: 0;
+  max-width: 1320px;
+  border-radius: 8px;
+  margin: 2rem auto;
+}
+body .grve-sticky-ready.grve-fixed.grve-sticky-header.grve-skin-sticky {
+  max-width: 100%;
+  width: 100%;
 }
 
 a.lime-cta {

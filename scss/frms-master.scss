@@ -4,7 +4,22 @@
 @import '_homepage.scss';
 
 // Navigation
-.empty-class{background-color:$green-g40;}
+body{ 
+    // Overlapping Header
+    .grve-header-overlapping #grve-main-header {
+        left: 0;
+        right: 0;
+        max-width: 1320px;
+        border-radius: 8px;
+        margin: 2rem auto;
+    }
+    // Sticky Header
+    .grve-sticky-ready.grve-fixed.grve-sticky-header.grve-skin-sticky {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
 
 // Request A Quote CTA
 a.lime-cta {
@@ -14,6 +29,7 @@ a.lime-cta {
     color: $green-g70 !important;
     font-weight: 600;
     letter-spacing: 0;
+        // Hover
         &:hover {
             background: $green-g50 !important;
             color: $manilla-m10 !important;
