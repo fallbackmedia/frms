@@ -190,12 +190,14 @@ p .underline {
   text-decoration: underline;
 }
 
+
 body .grve-header-overlapping #grve-main-header {
   left: 0;
   right: 0;
   max-width: 1320px;
   border-radius: 8px;
   margin: 2rem auto;
+
 }
 body .grve-sticky-ready.grve-fixed.grve-sticky-header.grve-skin-sticky {
   max-width: 100%;
