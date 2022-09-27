@@ -1,10 +1,9 @@
 // Master Styling for Federal Records Management
-@import '_color.scss';
-@import '_typography.scss';
-@import '_homepage.scss';
+@import '_color';
+@import '_typography';
 
 // Navigation
-body{ 
+body {
     // Overlapping Header
     .grve-header-overlapping #grve-main-header {
         left: 0;
@@ -41,4 +40,56 @@ a.lime-cta {
 ::selection {
     color: $green-g70;
     background: $green-g20 !important;
+}
+
+// FRMS Homepage Styling
+
+// Request A Quote Form - Form 197 - Multi Step Form
+#wpforms-form-197 {
+    // Multistep Page Indicator
+    .wpforms-page-indicato {
+        margin: 0;
+
+        &.progress {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 4px;
+        }
+            .wpforms-page-indicator-page-progress-wrap {
+                height: 8px;
+            }
+    }
+    span.wpforms-page-indicator-steps {
+        font-size: 1rem;
+    }
+    // Full Width Submit Buttons
+    .wpforms-form input[type=submit], .wpforms-form button[type=submit] {
+        width: 100% !important;
+    }
+    div.wpforms-container-full .wpforms-form {
+        .wpforms-page-button {
+            @include sans;
+            font-size: 1.25rem;
+            font-weight: 800;
+            margin: 0 5px;
+            min-width: 90px;
+            text-align: center;
+            padding: 16px;
+            border-radius: 4px;
+            width: 100%;
+
+        // Step Indicator
+        .wpforms-page-indicator {
+            margin: 0;
+        }
+
+        .wpforms-form .wpforms-field {
+            padding: 8px 0;
+        }
+    }
+}
+
+    div.wpforms-container-full {
+        margin: 0 auto;
+    }
 }

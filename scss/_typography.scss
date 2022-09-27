@@ -3,7 +3,6 @@
 //Fonts
 $frms-sans: 'Shredder Sans', 'Inter', 'Open Sans', Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif; // Shredder Sans
 $frms-sharp: 'Sharp Grotesk', 'Inter', 'Open Sans', Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif; // Sharp Grotesk
-h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {font-family: $frms-sans;}
 
 // Mixins - Must be decalred first before
 @mixin sans {font-family: $frms-sans !important;}
@@ -11,16 +10,26 @@ h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {font-family: $frms-
 @mixin uppercase {text-transform: uppercase !important;}
 @mixin titlecase {text-transform: capitalize !important;}
 
-/* Global Classes for FrontEnd Use */
-#sans, .sans {h1,h2,h3,h4,h5,h6,div,span,a,p {@include sans;}}
-#sharp, .sharp {h1,h2,h3,h4,h5,h6,div,span,a,p {@include sharp;}}
+// Global Classes for FrontEnd Use 
+#sans, .sans {h1,h2, h3, h4, h5, h6, div, span, a, p {@include sans;}}
+#sharp, .sharp {h1, h2, h3, h4, h5, h6, div, span, a, p {@include sharp;}}
 
 /* Type Casing - Uppercase & Capitalize */
-.uppercase {h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {@include uppercase;}} 
+.uppercase {h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {@include uppercase;}}
 .titlecase {h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {@include titlecase;}}
-h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {.uppercase {@include uppercase;} .titlecase {@include titlecase;}}
+h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {
+    font-family: $frms-sans;
+
+    .uppercase {
+        @include uppercase;
+    }
+
+    .titlecase {
+        @include titlecase;
+    }
+}
 
 // Underline
-.underline {h1,h2,h3,h4,h5,h6,div,span,a,p {text-decoration: underline !important;}} h1,h2,h3,h4,h5,h6,div,span,a,p {.underline {text-decoration: underline !important;}}
+.underline {h1, h2, h3, h4, h5, h6, div, span, a, p  {text-decoration: underline !important;}} h1, h2, h3, h4, h5, h6, div, span, a, p  {.underline {text-decoration: underline !important;}}
 
 // Add Font Weight Modifiers
