@@ -1,96 +1,193 @@
-#green10 h1, #green10 h2, #green10 h3, #green10 h4, #green10 h5, #green10 h6, #green10 div, #green10 span, #green10 a, #green10 p, .green10 h1, .green10 h2, .green10 h3, .green10 h4, .green10 h5, .green10 h6, .green10 div, .green10 span, .green10 a, .green10 p {
+.green10 h1, .green10 h2, .green10 h3, .green10 h4, .green10 h5, .green10 h6, .green10 div, .green10 span, .green10 a, .green10 p {
   color: #f6f7f3;
 }
 
-#green20 h1, #green20 h2, #green20 h3, #green20 h4, #green20 h5, #green20 h6, #green20 div, #green20 span, #green20 a, #green20 p, .green20 h1, .green20 h2, .green20 h3, .green20 h4, .green20 h5, .green20 h6, .green20 div, .green20 span, .green20 a, .green20 p {
+.green20 h1, .green20 h2, .green20 h3, .green20 h4, .green20 h5, .green20 h6, .green20 div, .green20 span, .green20 a, .green20 p {
   color: #e6eed8;
 }
 
-#green30 h1, #green30 h2, #green30 h3, #green30 h4, #green30 h5, #green30 h6, #green30 div, #green30 span, #green30 a, #green30 p, .green30 h1, .green30 h2, .green30 h3, .green30 h4, .green30 h5, .green30 h6, .green30 div, .green30 span, .green30 a, .green30 p {
+.green30 h1, .green30 h2, .green30 h3, .green30 h4, .green30 h5, .green30 h6, .green30 div, .green30 span, .green30 a, .green30 p {
   color: #c0e246;
 }
 
-#green40 h1, #green40 h2, #green40 h3, #green40 h4, #green40 h5, #green40 h6, #green40 div, #green40 span, #green40 a, #green40 p, .green40 h1, .green40 h2, .green40 h3, .green40 h4, .green40 h5, .green40 h6, .green40 div, .green40 span, .green40 a, .green40 p {
+.green40 h1, .green40 h2, .green40 h3, .green40 h4, .green40 h5, .green40 h6, .green40 div, .green40 span, .green40 a, .green40 p {
   color: #83c55e;
 }
 
-#green50 h1, #green50 h2, #green50 h3, #green50 h4, #green50 h5, #green50 h6, #green50 div, #green50 span, #green50 a, #green50 p, .green50 h1, .green50 h2, .green50 h3, .green50 h4, .green50 h5, .green50 h6, .green50 div, .green50 span, .green50 a, .green50 p {
+.green50 h1, .green50 h2, .green50 h3, .green50 h4, .green50 h5, .green50 h6, .green50 div, .green50 span, .green50 a, .green50 p {
   color: #50b26f;
 }
 
-#green60 h1, #green60 h2, #green60 h3, #green60 h4, #green60 h5, #green60 h6, #green60 div, #green60 span, #green60 a, #green60 p, .green60 h1, .green60 h2, .green60 h3, .green60 h4, .green60 h5, .green60 h6, .green60 div, .green60 span, .green60 a, .green60 p {
+.green60 h1, .green60 h2, .green60 h3, .green60 h4, .green60 h5, .green60 h6, .green60 div, .green60 span, .green60 a, .green60 p {
   color: #307552;
 }
 
-#green70 h1, #green70 h2, #green70 h3, #green70 h4, #green70 h5, #green70 h6, #green70 div, #green70 span, #green70 a, #green70 p, .green70 h1, .green70 h2, .green70 h3, .green70 h4, .green70 h5, .green70 h6, .green70 div, .green70 span, .green70 a, .green70 p {
+.green70 h1, .green70 h2, .green70 h3, .green70 h4, .green70 h5, .green70 h6, .green70 div, .green70 span, .green70 a, .green70 p {
   color: #12423c;
 }
 
-#green80 h1, #green80 h2, #green80 h3, #green80 h4, #green80 h5, #green80 h6, #green80 div, #green80 span, #green80 a, #green80 p, .green80 h1, .green80 h2, .green80 h3, .green80 h4, .green80 h5, .green80 h6, .green80 div, .green80 span, .green80 a, .green80 p {
+.green80 h1, .green80 h2, .green80 h3, .green80 h4, .green80 h5, .green80 h6, .green80 div, .green80 span, .green80 a, .green80 p {
   color: #0a2e29;
 }
 
-#manilla10 h1, #manilla10 h2, #manilla10 h3, #manilla10 h4, #manilla10 h5, #manilla10 h6, #manilla10 div, #manilla10 span, #manilla10 a, #manilla10 p, .manilla10 h1, .manilla10 h2, .manilla10 h3, .manilla10 h4, .manilla10 h5, .manilla10 h6, .manilla10 div, .manilla10 span, .manilla10 a, .manilla10 p {
+.manilla10 h1, .manilla10 h2, .manilla10 h3, .manilla10 h4, .manilla10 h5, .manilla10 h6, .manilla10 div, .manilla10 span, .manilla10 a, .manilla10 p {
   color: #faf9f6;
 }
 
-#manilla20 h1, #manilla20 h2, #manilla20 h3, #manilla20 h4, #manilla20 h5, #manilla20 h6, #manilla20 div, #manilla20 span, #manilla20 a, #manilla20 p, .manilla20 h1, .manilla20 h2, .manilla20 h3, .manilla20 h4, .manilla20 h5, .manilla20 h6, .manilla20 div, .manilla20 span, .manilla20 a, .manilla20 p {
+.manilla20 h1, .manilla20 h2, .manilla20 h3, .manilla20 h4, .manilla20 h5, .manilla20 h6, .manilla20 div, .manilla20 span, .manilla20 a, .manilla20 p {
   color: #f4f4f0;
 }
 
-#manilla30 h1, #manilla30 h2, #manilla30 h3, #manilla30 h4, #manilla30 h5, #manilla30 h6, #manilla30 div, #manilla30 span, #manilla30 a, #manilla30 p, .manilla30 h1, .manilla30 h2, .manilla30 h3, .manilla30 h4, .manilla30 h5, .manilla30 h6, .manilla30 div, .manilla30 span, .manilla30 a, .manilla30 p {
+.manilla30 h1, .manilla30 h2, .manilla30 h3, .manilla30 h4, .manilla30 h5, .manilla30 h6, .manilla30 div, .manilla30 span, .manilla30 a, .manilla30 p {
   color: #e0ded7;
 }
 
-#manilla40 h1, #manilla40 h2, #manilla40 h3, #manilla40 h4, #manilla40 h5, #manilla40 h6, #manilla40 div, #manilla40 span, #manilla40 a, #manilla40 p, .manilla40 h1, .manilla40 h2, .manilla40 h3, .manilla40 h4, .manilla40 h5, .manilla40 h6, .manilla40 div, .manilla40 span, .manilla40 a, .manilla40 p {
+.manilla40 h1, .manilla40 h2, .manilla40 h3, .manilla40 h4, .manilla40 h5, .manilla40 h6, .manilla40 div, .manilla40 span, .manilla40 a, .manilla40 p {
   color: #bab7ae;
 }
 
-#manilla50 h1, #manilla50 h2, #manilla50 h3, #manilla50 h4, #manilla50 h5, #manilla50 h6, #manilla50 div, #manilla50 span, #manilla50 a, #manilla50 p, .manilla50 h1, .manilla50 h2, .manilla50 h3, .manilla50 h4, .manilla50 h5, .manilla50 h6, .manilla50 div, .manilla50 span, .manilla50 a, .manilla50 p {
+.manilla50 h1, .manilla50 h2, .manilla50 h3, .manilla50 h4, .manilla50 h5, .manilla50 h6, .manilla50 div, .manilla50 span, .manilla50 a, .manilla50 p {
   color: #88867d;
 }
 
-#manilla60 h1, #manilla60 h2, #manilla60 h3, #manilla60 h4, #manilla60 h5, #manilla60 h6, #manilla60 div, #manilla60 span, #manilla60 a, #manilla60 p, .manilla60 h1, .manilla60 h2, .manilla60 h3, .manilla60 h4, .manilla60 h5, .manilla60 h6, .manilla60 div, .manilla60 span, .manilla60 a, .manilla60 p {
+.manilla60 h1, .manilla60 h2, .manilla60 h3, .manilla60 h4, .manilla60 h5, .manilla60 h6, .manilla60 div, .manilla60 span, .manilla60 a, .manilla60 p {
   color: #53514b;
 }
 
-#manilla70 h1, #manilla70 h2, #manilla70 h3, #manilla70 h4, #manilla70 h5, #manilla70 h6, #manilla70 div, #manilla70 span, #manilla70 a, #manilla70 p, .manilla70 h1, .manilla70 h2, .manilla70 h3, .manilla70 h4, .manilla70 h5, .manilla70 h6, .manilla70 div, .manilla70 span, .manilla70 a, .manilla70 p {
+.manilla70 h1, .manilla70 h2, .manilla70 h3, .manilla70 h4, .manilla70 h5, .manilla70 h6, .manilla70 div, .manilla70 span, .manilla70 a, .manilla70 p {
   color: #3e3c35;
 }
 
-#sans h1, #sans h2, #sans h3, #sans h4, #sans h5, #sans h6, #sans div, #sans span, #sans a, #sans p, .sans h1, .sans h2, .sans h3, .sans h4, .sans h5, .sans h6, .sans div, .sans span, .sans a, .sans p {
-  font-family: "Shredder Sans", "Inter", "Open Sans", Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif !important;
-}
-
-#sharp h1, #sharp h2, #sharp h3, #sharp h4, #sharp h5, #sharp h6, #sharp div, #sharp span, #sharp a, #sharp p, .sharp h1, .sharp h2, .sharp h3, .sharp h4, .sharp h5, .sharp h6, .sharp div, .sharp span, .sharp a, .sharp p {
-  font-family: "Sharp Grotesk", "Inter", "Open Sans", Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif !important;
-}
-
-/* Type Casing - Uppercase & Capitalize */
-.uppercase h1, .uppercase h2, .uppercase h3, .uppercase h4, .uppercase h5, .uppercase h6, .uppercase a, .uppercase li, .uppercase ul, .uppercase span, .uppercase div, .uppercase ol, .uppercase p, .uppercase button {
-  text-transform: uppercase !important;
-}
-
-.titlecase h1, .titlecase h2, .titlecase h3, .titlecase h4, .titlecase h5, .titlecase h6, .titlecase a, .titlecase li, .titlecase ul, .titlecase span, .titlecase div, .titlecase ol, .titlecase p, .titlecase button {
-  text-transform: capitalize !important;
-}
-
-h1, h2, h3, h4, h5, h6, a, li, ul, span, div, ol, p, button {
+.sans h1,
+.sans h2,
+.sans h3,
+.sans h4,
+.sans h5,
+.sans h6,
+.sans div,
+.sans span,
+.sans a,
+.sans p {
   font-family: "Shredder Sans", "Inter", "Open Sans", Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif;
 }
-h1 .uppercase, h2 .uppercase, h3 .uppercase, h4 .uppercase, h5 .uppercase, h6 .uppercase, a .uppercase, li .uppercase, ul .uppercase, span .uppercase, div .uppercase, ol .uppercase, p .uppercase, button .uppercase {
-  text-transform: uppercase !important;
-}
-h1 .titlecase, h2 .titlecase, h3 .titlecase, h4 .titlecase, h5 .titlecase, h6 .titlecase, a .titlecase, li .titlecase, ul .titlecase, span .titlecase, div .titlecase, ol .titlecase, p .titlecase, button .titlecase {
-  text-transform: capitalize !important;
+
+.sharp h1,
+.sharp h2,
+.sharp h3,
+.sharp h4,
+.sharp h5,
+.sharp h6,
+.sharp div,
+.sharp span,
+.sharp a,
+.sharp p {
+  font-family: "Sharp Grotesk", "Inter", "Open Sans", Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif;
 }
 
-.underline h1, .underline h2, .underline h3, .underline h4, .underline h5, .underline h6, .underline div, .underline span, .underline a, .underline p {
-  text-decoration: underline !important;
+.uppercase h1,
+.uppercase h2,
+.uppercase h3,
+.uppercase h4,
+.uppercase h5,
+.uppercase h6,
+.uppercase div,
+.uppercase span,
+.uppercase a,
+.uppercase p {
+  text-transform: uppercase;
 }
 
-h1 .underline, h2 .underline, h3 .underline, h4 .underline, h5 .underline, h6 .underline, div .underline, span .underline, a .underline, p .underline {
-  text-decoration: underline !important;
+.titlecase h1,
+.titlecase h2,
+.titlecase h3,
+.titlecase h4,
+.titlecase h5,
+.titlecase h6,
+.titlecase div,
+.titlecase span,
+.titlecase a,
+.titlecase p,
+.titlecase button {
+  text-transform: capitalize;
+}
+
+h1 .sans,
+h2 .sans,
+h3 .sans,
+h4 .sans,
+h5 .sans,
+h6 .sans,
+div .sans,
+span .sans,
+a .sans,
+p .sans,
+button .sans {
+  font-family: "Shredder Sans", "Inter", "Open Sans", Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif;
+}
+h1 .sharp,
+h2 .sharp,
+h3 .sharp,
+h4 .sharp,
+h5 .sharp,
+h6 .sharp,
+div .sharp,
+span .sharp,
+a .sharp,
+p .sharp,
+button .sharp {
+  font-family: "Sharp Grotesk", "Inter", "Open Sans", Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif;
+}
+h1 .uppercase,
+h2 .uppercase,
+h3 .uppercase,
+h4 .uppercase,
+h5 .uppercase,
+h6 .uppercase,
+div .uppercase,
+span .uppercase,
+a .uppercase,
+p .uppercase,
+button .uppercase {
+  text-transform: uppercase;
+}
+h1 .titlecase,
+h2 .titlecase,
+h3 .titlecase,
+h4 .titlecase,
+h5 .titlecase,
+h6 .titlecase,
+div .titlecase,
+span .titlecase,
+a .titlecase,
+p .titlecase,
+button .titlecase {
+  text-transform: capitalize;
+}
+
+.underline h1,
+.underline h2,
+.underline h3,
+.underline h4,
+.underline h5,
+.underline h6,
+.underline div,
+.underline span,
+.underline a,
+.underline p {
+  text-decoration: underline;
+}
+
+h1 .underline,
+h2 .underline,
+h3 .underline,
+h4 .underline,
+h5 .underline,
+h6 .underline,
+div .underline,
+span .underline,
+a .underline,
+p .underline {
+  text-decoration: underline;
 }
 
 body .grve-header-overlapping #grve-main-header {
@@ -105,7 +202,7 @@ body .grve-sticky-ready.grve-fixed.grve-sticky-header.grve-skin-sticky {
   width: 100%;
 }
 
-a.lime-cta {
+a.lime-cta, button.lime-cta, .lima-cta {
   padding: 16px 32px;
   background: #c0e246 !important;
   border-radius: 4px;
@@ -113,7 +210,7 @@ a.lime-cta {
   font-weight: 600;
   letter-spacing: 0;
 }
-a.lime-cta:hover {
+a.lime-cta:hover, button.lime-cta:hover, .lima-cta:hover {
   background: #50b26f !important;
   color: #faf9f6 !important;
   fill: #faf9f6 !important;
@@ -146,8 +243,11 @@ a.lime-cta:hover {
 #wpforms-form-197 .wpforms-form input[type=submit], #wpforms-form-197 .wpforms-form button[type=submit] {
   width: 100% !important;
 }
+#wpforms-form-197 div.wpforms-container-full {
+  margin: 0 auto;
+}
 #wpforms-form-197 div.wpforms-container-full .wpforms-form .wpforms-page-button {
-  font-family: "Shredder Sans", "Inter", "Open Sans", Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif !important;
+  font-family: "Shredder Sans", "Inter", "Open Sans", Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif;
   font-size: 1.25rem;
   font-weight: 800;
   margin: 0 5px;
@@ -157,12 +257,9 @@ a.lime-cta:hover {
   border-radius: 4px;
   width: 100%;
 }
-#wpforms-form-197 div.wpforms-container-full .wpforms-form .wpforms-page-button .wpforms-page-indicator {
+#wpforms-form-197 div.wpforms-container-full .wpforms-form .wpforms-page-indicator {
   margin: 0;
 }
-#wpforms-form-197 div.wpforms-container-full .wpforms-form .wpforms-page-button .wpforms-form .wpforms-field {
+#wpforms-form-197 div.wpforms-container-full .wpforms-form .wpforms-field {
   padding: 8px 0;
-}
-#wpforms-form-197 div.wpforms-container-full {
-  margin: 0 auto;
 }/*# sourceMappingURL=frms-master.css.map */
