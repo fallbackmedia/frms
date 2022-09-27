@@ -1,62 +1,62 @@
 // FRMS Colors -- Partial
 
-/* Colors Variables */
+// Colors Variables
 
 
 // FRMS Green
-$green-g10: #F6F7F3;
-$green-g20: #E6EED8;
-$green-g30: #C0E246;
-$green-g40: #83C55E;
-$green-g50: #50B26F;
+$green-g10: #f6f7f3;
+$green-g20: #e6eed8;
+$green-g30: #c0e246;
+$green-g40: #83c55e;
+$green-g50: #50b26f;
 $green-g60: #307552;
-$green-g70: #12423C;
-$green-g80: #0A2E29;
+$green-g70: #12423c;
+$green-g80: #0a2e29;
 
 // Green Mixins
-@mixin Green10 {color: $green-g10 !important;}
-@mixin Green20 {color: $green-g20 !important;}
-@mixin Green30 {color: $green-g30 !important;}
-@mixin Green40 {color: $green-g40 !important;}
-@mixin Green50 {color: $green-g50 !important;}
-@mixin Green60 {color: $green-g60 !important;}
-@mixin Green70 {color: $green-g70 !important;}
-@mixin Green80 {color: $green-g80 !important;}
+@mixin green10 {color: $green-g10;}
+@mixin green20 {color: $green-g20;}
+@mixin green30 {color: $green-g30;}
+@mixin green40 {color: $green-g40;}
+@mixin green50 {color: $green-g50;}
+@mixin green60 {color: $green-g60;}
+@mixin green70 {color: $green-g70;}
+@mixin green80 {color: $green-g80;}
 
 
 // FRMS Manilla
-$manilla-m10:#FAF9F6;
-$manilla-m20:#F4F4F0;
-$manilla-m30:#E0DED7;
-$manilla-m40:#BAB7AE;
-$manilla-m50:#88867D;
-$manilla-m60:#53514B;
-$manilla-m70:#3E3C35;
+$manilla-m10: #faf9f6;
+$manilla-m20: #f4f4f0;
+$manilla-m30: #e0ded7;
+$manilla-m40: #bab7ae;
+$manilla-m50: #88867d;
+$manilla-m60: #53514b;
+$manilla-m70: #3e3c35;
 
 // Manilla Mixins
-@mixin Manilla10 {color: $manilla-m10 !important;}
-@mixin Manilla20 {color: $manilla-m20 !important;}
-@mixin Manilla30 {color: $manilla-m30 !important;}
-@mixin Manilla40 {color: $manilla-m40 !important;}
-@mixin Manilla50 {color: $manilla-m50 !important;}
-@mixin Manilla60 {color: $manilla-m60 !important;}
-@mixin Manilla70 {color: $manilla-m70 !important;}
+@mixin manilla10 {color: $manilla-m10;}
+@mixin manilla20 {color: $manilla-m20;}
+@mixin manilla30 {color: $manilla-m30;}
+@mixin manilla40 {color: $manilla-m40;}
+@mixin manilla50 {color: $manilla-m50;}
+@mixin manilla60 {color: $manilla-m60;}
+@mixin manilla70 {color: $manilla-m70;}
 
 
 
-/* Global Classes for FrontEnd Dev */
-#green10, .green10 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Green10;}}
-#green20, .green20 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Green20;}}
-#green30, .green30 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Green30;}}
-#green40, .green40 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Green40;}}
-#green50, .green50 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Green50;}}
-#green60, .green60 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Green60;}}
-#green70, .green70 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Green70;}}
-#green80, .green80 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Green80;}}
-#manilla10, .manilla10 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Manilla10;}}
-#manilla20, .manilla20 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Manilla20;}}
-#manilla30, .manilla30 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Manilla30;}}
-#manilla40, .manilla40 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Manilla40;}}
-#manilla50, .manilla50 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Manilla50;}}
-#manilla60, .manilla60 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Manilla60;}}
-#manilla70, .manilla70 {h1,h2,h3,h4,h5,h6,div,span,a,p {@include Manilla70;}}
+// Global Classes for FrontEnd Dev
+.green10 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include green10;}}
+.green20 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include green20;}}
+.green30 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include green30;}}
+.green40 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include green40;}}
+.green50 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include green50;}}
+.green60 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include green60;}}
+.green70 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include green70;}}
+.green80 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include green80;}}
+.manilla10 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include manilla10;}}
+.manilla20 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include manilla20;}}
+.manilla30 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include manilla30;}}
+.manilla40 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include manilla40;}}
+.manilla50 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include manilla50;}}
+.manilla60 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include manilla60;}}
+.manilla70 {h1, h2, h3, h4, h5, h6, div, span, a, p {@include manilla70;}}
