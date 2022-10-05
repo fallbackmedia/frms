@@ -74,6 +74,17 @@ $frms-sharp: 'Sharp Grotesk', 'Inter', 'Open Sans', Arial, apple-system, system-
     }
 }
 
+h1,h2,h3,h4,h5,h6,div,span,a,p,button {
+    &.bold {
+        @include sharp;
+        font-weight: 600;
+    }
+    &.light{
+        @include sharp;
+        font-weight: 300;
+    }
+}
+
 h1,
 h2,
 h3,
