@@ -115,6 +115,10 @@ h1.bold, h2.bold, h3.bold, h4.bold, h5.bold, h6.bold, div.bold, span.bold, a.bol
   font-family: "Sharp Grotesk", "Inter", "Open Sans", Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif;
   font-weight: 600;
 }
+h1.medium, h2.medium, h3.medium, h4.medium, h5.medium, h6.medium, div.medium, span.medium, a.medium, p.medium, button.medium {
+  font-family: "Sharp Grotesk", "Inter", "Open Sans", Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif;
+  font-weight: 500;
+}
 h1.light, h2.light, h3.light, h4.light, h5.light, h6.light, div.light, span.light, a.light, p.light, button.light {
   font-family: "Sharp Grotesk", "Inter", "Open Sans", Arial, apple-system, system-ui, BlinkMacSystemFont, sans serif;
   font-weight: 300;
@@ -199,14 +203,12 @@ p .underline {
   text-decoration: underline;
 }
 
-
 body .grve-header-overlapping #grve-main-header {
   left: 0;
   right: 0;
   max-width: 1320px;
   border-radius: 8px;
   margin: 2rem auto;
-
 }
 body .grve-sticky-ready.grve-fixed.grve-sticky-header.grve-skin-sticky {
   max-width: 100%;
