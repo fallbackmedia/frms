@@ -79,6 +79,10 @@ h1,h2,h3,h4,h5,h6,div,span,a,p,button {
         @include sharp;
         font-weight: 600;
     }
+    &.medium {
+        @include sharp;
+        font-weight: 500;
+    }
     &.light{
         @include sharp;
         font-weight: 300;
